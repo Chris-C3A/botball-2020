@@ -1,25 +1,15 @@
-/*****************************/
-/* KIPR wallaby factory_test */
-/* By Nathaniel Ashley       */
-/* 10/25/2016                */
-/*****************************/
-
 #include <kipr/botball.h>
 #include <math.h>
-  	
-
 
 // variables
 int open_claw_pos = 2047;
 int closed_claw_pos = 680;
-
 
 // functions
 void cdd(int l, int r);
 void ssp(int port, int pos);
 
 //opened
-
 int main()
 {
     create_connect();
